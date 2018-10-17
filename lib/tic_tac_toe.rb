@@ -166,7 +166,7 @@ end
 
 def winner(board)
   
-  if won?(board) != false
+  if won?(board) == true
   win_index = won?(board)
   winning_letter = board[win_index[0]]
   return winning_letter
@@ -179,7 +179,7 @@ def play(board)
   while over?(board) != true do
     turn(board)
     
-    if won?(board) == true
+    if winner(board) == true
        puts "Congratulations " +  winning_letter + "!"
    
     elsif draw?(board) == true
@@ -187,7 +187,5 @@ def play(board)
   
     end
   end
-  
-
 end
     
