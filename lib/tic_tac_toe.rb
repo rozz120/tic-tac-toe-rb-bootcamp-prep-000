@@ -47,11 +47,6 @@ def move(board, index, value)
 end
 
 
-
-
-
-
-
 def turn_count(board)
   
   counter = 0
