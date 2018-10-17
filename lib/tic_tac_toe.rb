@@ -69,8 +69,9 @@ def turn(board)
      puts "please enter a valid input"
      turn(board)
      
-  else 
-     move(board, index)
+  else
+    value = current_player(board)
+     move(board, index, value)
      display_board(board)
      
    end
