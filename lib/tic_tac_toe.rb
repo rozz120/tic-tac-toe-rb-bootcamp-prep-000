@@ -180,6 +180,7 @@ def play(board)
     turn(board)
   end
   if won?(board) == true
+    puts winning_letter
    puts "Congratulations " +  winning_letter + "!"
    
   elsif draw?(board) == true
