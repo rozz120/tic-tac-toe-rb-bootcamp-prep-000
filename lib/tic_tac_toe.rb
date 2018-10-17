@@ -54,6 +54,7 @@ def turn(board)
     turn(board)
   end
 end
+end
 
 def turn_count(board)
   counter = 0
@@ -79,20 +80,6 @@ else
  
 end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 def won?(board)
