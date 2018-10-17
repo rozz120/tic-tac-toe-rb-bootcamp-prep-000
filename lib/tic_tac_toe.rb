@@ -169,7 +169,6 @@ def winner(board)
   if won?(board) != false
   win_index = won?(board)
   winning_letter = board[win_index[0]]
-  puts winning_letter
   return winning_letter
   
   end
@@ -183,7 +182,7 @@ def play(board)
     
   
     end
-    if won?(board) == true
+    if won?(board) != false
       winner(board)
        puts "Congratulations " +  winning_letter + "!"
    
