@@ -4,6 +4,9 @@
     
 
 
+def move(board)
+  puts "this is the move method"
+end
 
 
 
