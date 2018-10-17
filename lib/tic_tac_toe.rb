@@ -179,7 +179,8 @@ def play(board)
   while over?(board) != true do
     turn(board)
     
-    if winner(board) == true
+    if won?(board) == true
+      winner(board)
        puts "Congratulations " +  winning_letter + "!"
    
     elsif draw?(board) == true
