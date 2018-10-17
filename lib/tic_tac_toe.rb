@@ -48,7 +48,9 @@ end
 
 def turn(board)
   
-   
+   puts "hello is this thing on?"
+   gets.strip
+   return 1
 
 
 
