@@ -183,7 +183,7 @@ def play(board)
    puts "Congratulations " +  winning_letter + "!"
    
   elsif draw?(board) == true
-  puts 
+  puts "Cat's Game!"
   
 end
     
