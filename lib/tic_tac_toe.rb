@@ -180,5 +180,8 @@ def play(board)
     turn(board)
   end
   
+  if won?(board) == true
+    puts "congratulations the the winner is " + winning_letter
+  
 end
     
