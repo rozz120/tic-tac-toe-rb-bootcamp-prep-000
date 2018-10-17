@@ -48,9 +48,18 @@ end
 
 def turn(board)
   
-   puts "hello is this thing on?"
-   gets.strip
-   return 1
+    puts("Please enter 1-9:")
+    input = gets.strip
+    index = input_to_index(input)
+ 
+   if valid_move?(board, index) == false
+     puts "please enter a valid input"
+     turn(board)
+  else 
+     move(board, index)
+     display_board(board)
+     
+   end
  end
 
 
