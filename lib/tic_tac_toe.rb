@@ -104,6 +104,8 @@ def won?(board)
     position_3 = board[win_index_3]
 
     if position_1 == "X" && position_2 == "X"  && position_3 == "X"
+      puts win_combinations
+      puts "this is the win combinations"
       return win_combinations
       
     elsif position_1 == "O" && position_2 == "O"  && position_3 == "O"
@@ -167,6 +169,16 @@ end
 def winner(board)
   
   if won?(board) != false
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   win_index = won?(board)
   winning_letter = won?(board[0])
   return winning_letter
