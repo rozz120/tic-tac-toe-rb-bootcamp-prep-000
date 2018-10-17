@@ -8,6 +8,8 @@ def move(board)
   puts "this is the move method"
 end
 
+def turn_count(board)
+  puts "hello down there"
 
 
 
