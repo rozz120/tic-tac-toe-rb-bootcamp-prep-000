@@ -22,6 +22,15 @@ def valid_move?(array, index)
   end
 end
 
+def move(array, index, value)
+  array[index] = value
+end
+
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
+
+
 
 
 
