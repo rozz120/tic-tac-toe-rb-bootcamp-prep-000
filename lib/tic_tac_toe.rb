@@ -168,7 +168,7 @@ def winner(board)
   
   if won?(board) != false
   win_index = won?(board)
-  winning_letter = board[win_index[0]]
+  winning_letter = won?(board[0])
   return winning_letter
   
   end
