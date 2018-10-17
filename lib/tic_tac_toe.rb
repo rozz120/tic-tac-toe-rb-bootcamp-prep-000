@@ -177,6 +177,11 @@ def winner(board)
   end
 end
 
+def play(board)
+  
+  while over?(board) != true do
+    
+    
 
 
 
