@@ -29,10 +29,10 @@ def move(array, index, value)
 end
 
 def position_taken?(board, index)
-  if !(board[index].nil? || board[index] == " ")
-    return true
-  else 
+  if (board[index].nil || board[index] == " ")
     return false
+  else 
+    return true
   end
   
 end
