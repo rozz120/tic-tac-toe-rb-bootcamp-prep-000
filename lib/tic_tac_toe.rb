@@ -166,7 +166,7 @@ end
 
 def winner(board)
   
-  if won?(board) == true
+  if won?(board) != false
   win_index = won?(board)
   winning_letter = board[win_index[0]]
   return winning_letter
