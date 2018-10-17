@@ -13,6 +13,17 @@ def turn(board)
   end
 end
 
+def valid_move?(array, index)
+  if index.between?(0,8) && position_taken?(array, index) == false
+    return true
+    
+  else
+    return false
+  end
+  
+end
+
+
 
 
 
