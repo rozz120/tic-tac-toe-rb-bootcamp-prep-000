@@ -20,7 +20,6 @@ def valid_move?(array, index)
   else
     return false
   end
-  
 end
 
 
