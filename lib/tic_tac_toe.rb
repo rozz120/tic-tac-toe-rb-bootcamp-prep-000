@@ -29,7 +29,7 @@ def move(array, index, value)
 end
 
 def position_taken?(board, index)
-  if 
+  if board[index] == "X" || board[index] == "x" || board[index] == "Y"|| board[index] == "y"
 
   
 end
