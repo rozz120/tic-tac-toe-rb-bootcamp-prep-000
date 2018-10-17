@@ -28,6 +28,8 @@ def move(array, index, value)
   array[index] = value
 end
 
+def position_taken?(board, index)
+  if 
 
   
 end
