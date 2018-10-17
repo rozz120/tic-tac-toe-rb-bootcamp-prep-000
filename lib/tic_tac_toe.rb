@@ -180,6 +180,31 @@ end
 def play(board)
   
   while over?(board) != true do
+    turn(board)
+  end
+  
+end
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 
