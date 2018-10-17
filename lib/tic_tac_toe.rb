@@ -153,10 +153,10 @@ def over?(board)
   if draw?(board) == true
     return true
   
-  elsif full?(board) == true && won?(board) != false
+  elsif full?(board) == true && won?(board) == false
     return true
     
-  elsif full?(board) == false && won?(board) != false
+  elsif full?(board) == false && won?(board) == false
   return true
   
 else 
@@ -177,7 +177,9 @@ def winner(board)
   end
 end
 
-def play
+def play(board)
+  
+  while 
 
 
 
