@@ -43,11 +43,10 @@ end
 
 def valid_move?(board, index)
   if index.between?(0,8) && position_taken?(board, index) == false
-    puts "valid move is true"
     return true
     
   else
-    puts "valid move is false"
+    
     return false
     
   end
@@ -56,7 +55,7 @@ end
 
 
 def turn(board)
-  puts "this is the turn method"
+ 
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
@@ -70,7 +69,7 @@ end
 
 
 def turn_count(board)
-  puts "this is the turn count method"
+  
   counter = 0
   board.each do |turnCount|
     if turnCount == "X" || turnCount == "O"
